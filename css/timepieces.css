@@ -1,0 +1,230 @@
+/* LOGO / NAVIGARION / FOOTER - style.css */
+
+
+nav #menu li:nth-child(5){
+    background-color:#fff;}
+nav #menu li:nth-child(5) a{color:#000;}
+
+/* SHOWCASE */
+#showcase{
+    background: url('../images/timepieces/timepieces_bg01.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 85vh; 
+    position: relative;
+}
+
+#showcase .showcase_text{
+    background-color: rgba(250,250,250,.8);
+    width: 40%;
+    padding: 2.5rem 5rem;
+    position: absolute;
+    bottom: 25rem; 
+}
+#showcase .showcase_text h1{
+    margin: 0;
+}
+
+#showcase .btn{
+    font-size: 1.5rem;
+    border-radius: 0;
+}
+
+  
+#testimonial{
+    background-color: #000;
+    padding: 10rem 0;
+    text-align: center;
+    margin:0;
+}
+  
+#testimonial h2{
+    font-size: 3.5rem;
+    padding-bottom: 5rem;
+    color: #706f6dbb;
+}
+  
+#testimonial p{
+    font-size: 2rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color:#999;
+}
+  
+/* INFO SECTION */
+/* INFO 1 */
+#info1{
+    background: url('../images/timepieces/timepieces_bg.jpg') no-repeat center/cover;
+    padding-top: 15rem;
+    padding-bottom: 15rem;
+
+}
+
+#info1 .info-right{
+    padding: 5rem;
+    margin-top: 10rem;
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+}
+
+#info1 .info-right h2{
+    padding-top: 0; 
+    padding-bottom: 5rem;
+    color: #d9d9d9;
+}
+
+#info1 .info-right p{
+    color: #cecdcd;
+}
+
+#info1 .info-right .btn{
+    font-size: 1.5rem;
+    border-radius: 0;
+    background-color: #333;
+    color: #eee;
+    margin-top: 2rem;
+    padding: 1rem 1.5rem;
+}
+  
+#info1 .info-right .btn:hover{
+      background-color: #eee;
+      color: #333;
+}
+  
+  /* INFO 2 */
+#info2{padding: 7rem 0;}
+#info2 .info-left{padding: 4rem 2rem;}
+#info2 .info-left #smTop{
+    color:#808080; 
+    margin-bottom: 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    }
+#info2 .info-left h2{
+    color:#333; 
+    margin-top: 0.3rem;
+    font-family: 'Roboto', sans-serif;
+    }
+#info2 .info-left p{
+    color: #808080;  
+    padding-top:2rem;
+
+    }
+#info2 .info-right video{width: 100%;}
+
+/* INFO 3 */
+#info3{
+    background-color: #000;
+    padding: 10rem;
+}
+
+#info3 .info-text{
+    text-align: center;
+    color: #b9b9b9;
+    padding: 2rem;
+}
+
+#info3 .w_detail, #info3 .w_item, #info3 .items{
+    padding: 0;
+}
+
+#info3 .info-text h2{
+    color: #a79d8ebb;
+}
+
+#info3 .w_detail img{
+    width: 100%;
+}
+
+#info3 .items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#info3 .items li{
+    width: 50%;
+    padding-bottom: 2rem;
+}
+
+#info3 .items li a img{
+    width: 95%;
+}
+
+  /* MEDIA QUERIES */
+
+@media(max-width: 1200px){
+    /* INFO 1 */
+
+    #info1 .info-right{
+    padding: 5rem 2rem;
+    }
+
+    #info1 .info-right h2{
+    padding-bottom: 2rem; 
+    font-size: 2.5rem;}
+
+    /* INFO 2 */
+    #info2 .info-left{padding: 2rem 2rem;}
+    #info2 .info-left h2{font-size: 2.5rem;}
+    #info2 .info-left p{font-size: 1.3rem;}
+
+    /* INFO 3 */
+    #info3 .info-middle{padding: 6rem 2rem;}
+    #info3 .info-middle h2{padding-bottom: 1rem;}
+}
+  
+  
+@media(max-width: 1000px){
+    #showcase .showcase_text{
+        width: 60%;
+    }
+    /* INFO 1 */
+    
+    #info1 .info-right{padding: 2rem;}
+    
+    /* INFO 2 */
+    #info2 .info-left{padding: 1.5rem;}
+    #info2 .info-left h2{font-size: 2.5rem;}
+    
+    /* INFO 3 */
+    #info3 .info-middle{padding: 2rem; font-size: 1.1rem;}
+    #info3 .info-middle h2{
+        font-size: 2.3rem; 
+        padding-bottom: 0;
+        }
+}
+  
+@media(max-width: 768px){
+    #showcase .showcase_text h1{
+        font-size: 3rem;
+    }
+
+    #info1, #info2{margin:1.5rem 0;}
+
+    #info1 img{
+        width: 60%;
+        top: -35rem;
+    }
+
+    #info1 .info-right{background-color:rgba(0,0,0,0.7);}
+    #info2 .info-left{
+    margin:0;
+    text-align: center;
+    }
+
+    #info3{padding:0;}
+  
+    #info3 .items{
+    flex-wrap: nowrap;
+    justify-content: space-between;
+   }
+
+   #info3 .items li{
+    width: 50%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+   }
+}

@@ -1,0 +1,114 @@
+/* LOGO / NAVIGARION / FOOTER - style.css */
+
+/* SHOWCASE */
+#showcase video{
+  width:100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+#testimonial{
+  background:#f1f1f1;
+  padding: 50px 0 30px 0;
+  text-align: center;
+}
+
+#testimonial h1{
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+#testimonial p{
+  font-size: 2rem;
+  font-family: 'Open Sans Condensed', sans-serif;
+  color:#666;
+}
+
+#testimonial .showcase-btn{
+  font-size: 1.5rem;
+}
+
+/* INFO SECTION */
+/* INFO 1 */
+#info1 img{width: 100%;}
+
+#info1 .info-right{
+  padding: 7rem 2rem;
+  text-align: center;
+}
+
+#info1 .info-right h2{
+  padding-top: 0; 
+  padding-bottom: 5rem;
+}
+
+/* INFO 2 */
+#info2 .info-right img{width: 100%;}
+#info2 .info-left{padding: 4rem 2rem;}
+#info2 .info-left #smTop{color:#c296a3; margin-bottom: 0;}
+#info2 .info-left h2{color:#ce718e; margin-top: 0;}
+#info2 .info-left p{padding-top:2rem;}
+
+/* INFO 3 */
+#info3 img{width: 100%;}
+#info3 .info-middle{
+  padding: 8rem 2rem 7rem;
+  text-align: center;
+}
+
+#info3 .info-middle h2{padding-bottom: 5rem;}
+
+
+/* MEDIA QUERIES */
+@media(max-width: 1200px){
+  /* INFO 1 */
+
+  #info1 .info-right{
+    padding: 5rem 2rem;
+  }
+
+  #info1 .info-right h2{
+    padding-bottom: 2rem; 
+    font-size: 2.5rem;}
+
+  /* INFO 2 */
+  #info2 .info-left{padding: 2rem 2rem;}
+  #info2 .info-left h2{font-size: 2.5rem;}
+  #info2 .info-left p{font-size: 1.3rem;}
+
+  /* INFO 3 */
+  #info3 .info-middle{padding: 6rem 2rem;}
+  #info3 .info-middle h2{padding-bottom: 3rem;}
+}
+
+
+@media(max-width: 1000px){
+  /* INFO 1 */
+
+  #info1 .info-right{padding: 2rem;}
+
+  /* INFO 2 */
+  #info2 .info-left{padding: 1.5rem;}
+  #info2 .info-left h2{font-size: 2.5rem;}
+  #info2 .info-left p{font-size: 1.1rem;}
+
+  /* INFO 3 */
+  #info3 .info-middle{padding: 2rem; font-size: 1.1rem;}
+  #info3 .info-middle h2{font-size: 2.5rem;}
+}
+
+@media(max-width: 768px){
+
+  #info1, #info2{margin:1.5rem 0;}
+  #info2 .info-left{
+  background-color: #dfd3d7;
+  padding: 1rem;
+  margin: 0;
+  text-align: center;
+  }
+
+  #info3 .info-left{display: none;}
+
+}

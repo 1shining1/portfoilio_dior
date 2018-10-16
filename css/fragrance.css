@@ -1,0 +1,184 @@
+/* LOGO / NAVIGARION / FOOTER - style.css */
+
+
+nav #menu li:nth-child(2){
+    background-color:#fff;}
+nav #menu li:nth-child(2) a{color:#000;}
+
+/* SHOWCASE */
+#showcase video{
+    width:100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+#testimonial{
+    background: #fff;
+    padding: 5rem;
+    text-align: center;
+}
+  
+#testimonial h1{
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+#testimonial p{
+    font-size: 2rem;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color:#666;
+}
+
+#testimonial .showcase-btn{
+    font-size: 1.5rem;   
+}
+
+/* INFO SECTION */
+/* INFO 1 */
+#info1{
+    background-color: #222;
+}
+
+#info1 .info-right{
+    text-align: center;
+    padding-bottom: 8rem;
+}
+
+#info1 .info-right p{color:#c296a3;}
+#info1 .info-right h1{color:#ad6179; padding: 1.5rem;}
+
+#info1 .info-left{
+    background: url('../images/fragrance/missDior.jpg') no-repeat center/cover;
+    width: 100%;
+    height: 75vh;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+
+  /* INFO 2 */
+#info2{
+    background: url('../images/fragrance/missDior03.jpg') no-repeat center/cover;
+    background-size: 100% auto; 
+    padding-top: 45rem;
+    padding-bottom: 12rem;
+}
+
+#info2 img{
+    width: 100%;
+}
+
+#info2 .info-middle{
+    text-align: center;
+}
+
+#info2 .info-left #smTop{
+    color: #696969; 
+    margin-bottom: 0;}
+#info2 .info-left h1{
+    margin-top: 0;
+}
+#info2 .info-left p{
+    padding-top:2rem;
+}
+
+  /* INFO 3 */
+#info3{
+    background: url('../images/fragrance/fragrance_flower02.jpg') no-repeat center/cover;
+    padding: 10rem 5rem;
+    text-align: center;
+}
+
+  /* INFO 4 */
+#info4{
+    padding: 10rem;}
+#info4 img{
+    width: 100%;
+}
+
+#info4 .info-middle{
+    padding: 2rem;
+    text-align: center;
+}
+
+  /* INFO 5 */
+#info5{
+    background: url('../images/fragrance/fragrance_flower01.jpg') no-repeat center/cover;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+#info5 img{
+    padding-top: 15rem;
+    margin-bottom: -20rem;
+}
+
+#info5 .info5_text{
+    background-color: #fff;
+    padding: 30rem 20rem 10rem;
+    font-size: 2rem;
+}
+
+/* MEDIA QUERIES */
+@media(max-width: 1400px){
+    #info2{
+        padding-top: 20rem;
+        padding-bottom: 10rem;
+    }
+}
+
+@media(max-width: 1200px){
+    /* INFO 1 */
+
+    #info1 .info-left{
+        margin-bottom: 3rem;
+    }
+    #info1 .info-right{
+        padding: 5rem;
+    }
+
+    /* INFO 2 */
+    #info2 .info-left{padding:0;}
+    
+    /* INFO 4 */
+    #info4 .info-middle{padding: 3rem 2rem;}
+    #info4 .info-middle h1{padding-bottom: 1rem;}
+}
+
+
+@media(min-width:769px) and (max-width: 1000px){
+
+/* INFO 2 */
+#info2{
+    padding-top: 10rem;
+    padding-bottom: 3rem;
+    }
+
+/* INFO 4 */
+#info4 .info-middle h1{
+    font-size: 2.3rem; 
+    padding: 0;
+    }
+}
+
+@media(max-width: 768px){
+
+#info1{margin:1.5rem 0;}
+
+#info2{padding: 0;}
+#info2 .info-left{
+    margin:0;
+    padding: 2rem;
+    text-align: center;
+    }
+
+#info4 .info-middle{
+    padding: 5rem 2rem;
+    }
+
+#info5 .info5_text{
+    padding: 30rem 5rem 5rem;
+    font-size: 1.7rem;
+    }
+}
