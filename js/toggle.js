@@ -1,12 +1,11 @@
-$(document).ready(function(){
+$(document).ready(function() {
+  $(".toggle-mnu").click(function() {
+    $(this).toggleClass("on");
+    $("").slideToggle();
+    return false;
+  });
 
-    $(".toggle-mnu").click(function() {
-        $(this).toggleClass("on");
-        $(".main-mnu").slideToggle();
-        return false;
-    });
-
-    $('.toggle-mnu').click(function(){
-        $('ul').toggleClass('active');
-    });
+  $(".toggle-mnu").click(function() {
+    $("#menu").toggleClass("active");
+  });
 });
